@@ -1,0 +1,77 @@
+
+
+body {
+    font-family: 'Courier New', Courier, monospace; 
+    background-image: url(assets/topography.png);
+    margin: 0px;
+    line-height: 2.5em;
+}
+
+nav {
+    background-color: #333;
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    
+}
+
+div {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+ul {
+    margin: 0px;
+    padding: 20px;
+    overflow: hidden;
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    float: right;
+    padding-left: 30px;
+}
+
+li a {
+    color: #ff0099;
+    font-size: 20px;
+}
+
+article {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+}
+
+h1 {
+    font-size: 32pt;
+    color: blue;
+    font-family: fantasy;
+}
+
+article h3 {
+    font-size: 20pt;
+    color: #ff0099;
+}
+
+article p {
+    font-size: 12pt;
+}
+
+section h2 {
+    font-size: 28pt;
+    text-align: center;
+}
+
+.intro {
+    font-family: cursive;
+}
+
+.separator {
+    font-size: 28px;
+    text-align: center;
+}
